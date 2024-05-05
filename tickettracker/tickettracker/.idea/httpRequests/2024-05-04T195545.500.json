@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-05-04T14:25:45.580+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/tickets/list"
+}

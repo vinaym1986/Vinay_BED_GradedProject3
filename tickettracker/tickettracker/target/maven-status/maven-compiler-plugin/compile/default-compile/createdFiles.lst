@@ -1,0 +1,4 @@
+com\greatlearning\tickettracker\controller\TicketController.class
+com\greatlearning\tickettracker\repository\TicketRepository.class
+com\greatlearning\tickettracker\TickettrackerApplication.class
+com\greatlearning\tickettracker\entity\Ticket.class

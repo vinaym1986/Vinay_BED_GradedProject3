@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Tracking Application</title>
+    <style>
+        /* Add your navbar styles here */
+        .navbar {
+            background-color: #4CAF50; /* Change color to green */
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar a.static-link {
+            background-color: transparent; /* No background color */
+            color: white; /* White text */
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a class="static-link">Ticket Tracker Application</a>
+    <a href="/tickets/list">Tickets</a>
+    <a href="/tickets/create-ticket">New Ticket</a>
+    <!-- Add more links as needed -->
+</div>
+
+</body>
+</html>
+
+
